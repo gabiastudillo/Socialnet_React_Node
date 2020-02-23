@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class CreateComment extends Component {
     render() {
         return (
-            <li className="list-group-item list-group-item p-0 pt-2">
+            <li className="list-group-item list-group-item p-0">
                 <img src={'https://laboratoriosniam.com/wp-content/uploads/2018/07/michael-dam-258165-unsplash_WEB2.jpg'} width="36" height="36" className="rounded-circle float-left mr-2 border" alt="" />
                 <div className="col m-0 p-0">
                     <div className="input-group-prepend border rounded-pill bg-light">

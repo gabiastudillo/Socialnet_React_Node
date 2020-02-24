@@ -80,3 +80,9 @@ label .form-inline{
 .emoji{
   background-image: url(/rsrc.php/v3/yI/r/1EAUp6uwsqY.png);
 }
+
+.mitextarea{
+  display: inline-block;
+  position: relative;
+   overflow: hidden;
+}

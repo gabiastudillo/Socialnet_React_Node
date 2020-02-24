@@ -16,14 +16,14 @@ export default class Perfil extends Component {
 
     render() {
         return (
-            <div className="container col-7">
+            <div className="container col-lg-7 col-md-8 col-sm-12">
                 <div className="card text-white">
                     <img src="https://k37.kn3.net/9E0D271BA.jpg" className="card-body-img" alt="..." />
                     <div className="card-img-overlay">
                         <div className="media h-100">
-                            <img src={'https://laboratoriosniam.com/wp-content/uploads/2018/07/michael-dam-258165-unsplash_WEB2.jpg'} width="180" height="180" className="align-self-end rounded-circle mr-2 mt-2 border" alt="" />
+                            <img src={'https://laboratoriosniam.com/wp-content/uploads/2018/07/michael-dam-258165-unsplash_WEB2.jpg'} width="180" height="180" className="align-self-end rounded-circle mr-2 mt-2" alt="" />
                             <div className="media-body align-self-end ">
-                                <h2 className="mt-0 p-3 mb-5">Gabriela Astudillo</h2>
+                                <h4 className="mt-0 p-3 mb-5">Gabriela Astudillo</h4>
                             </div>
                         </div>
                     </div>

@@ -10,7 +10,7 @@ export default class Respuesta extends Component {
                     <div className="media-body bg-light rounded px-3 py-2">
                         <Link className="mt-0 font-weight-bold" to="/perfil">Gabriela Astudillo</Link>
                         <Link className="btn rounded-pill bg-tranparent border-0 pt-0 pb-2 pl-2 pr-2 ml-2">...</Link>
-                        <p>Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                        <p className="text-justify">Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
                         <div className="row m-0 p-0">
                             <a href="className=#v-pills-home" className="mr-3">Me gusta</a>
                             <a href="className=#v-pills-home" className="mr-3">Responder</a>

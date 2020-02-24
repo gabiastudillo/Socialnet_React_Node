@@ -9,7 +9,7 @@ export default class Perfil extends Component {
     }
 
     async componentDidMount() {
-        const res = axios.get('http:/localhost:4000/user/1');
+        const res = axios.get('http:/localhost:4000/api/user/1');
         this.setState({ users: res.data });
         console.log(this.state.users.data);
     }
@@ -27,14 +27,14 @@ export default class Perfil extends Component {
                             </div>
                         </div>
                     </div>
-                    <div class="card-body my-0 py-3 ml-auto">
+                    <div className="card-body my-0 py-3 ml-auto">
                         <Link className="font-weight-bold p-3 m-0 border-right" to="/">Biografía</Link>
-                        <Link className="font-weight-bold p-3 m-0 border-right">Información</Link>
-                        <Link className="font-weight-bold p-3 m-0 border-right">Amigos</Link>
-                        <Link className="font-weight-bold p-3 m-0 border-right">Fotos</Link>
-                        <Link className="font-weight-bold p-3 m-0 border-right">Videos</Link>
-                        <Link className="font-weight-bold p-3 m-0 border-right">Archivo</Link>                        
-                        <Link className="font-weight-bold p-3 m-0">Más...</Link>
+                        <Link className="font-weight-bold p-3 m-0 border-right" to="/">Información</Link>
+                        <Link className="font-weight-bold p-3 m-0 border-right" to="/">Amigos</Link>
+                        <Link className="font-weight-bold p-3 m-0 border-right" to="/">Fotos</Link>
+                        <Link className="font-weight-bold p-3 m-0 border-right" to="/">Videos</Link>
+                        <Link className="font-weight-bold p-3 m-0 border-right" to="/">Archivo</Link>                        
+                        <Link className="font-weight-bold p-3 m-0" to="/">Más...</Link>
                     </div>
 
                 </div>

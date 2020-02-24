@@ -12,6 +12,7 @@ app.use(express.json());
 //ROUTES
 app.use('/api/publicaciones', require('./routes/publicaciones'));
 app.use('/api/productos',require('./routes/productos'));
+app.use('/api/user',require('./routes/index'));
 
 
 module.exports = app;

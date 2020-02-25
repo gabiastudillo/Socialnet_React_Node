@@ -16,8 +16,8 @@ export default class Publication extends Component {
                         <h6 className="text-muted font-weight-normal">1 h</h6>
                     </div>
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <PublicacionGallery/>
+                </div>                
+                <PublicacionGallery />
                 <InteraccionPublicacion />
                 <SeccionComentarios />
             </div>

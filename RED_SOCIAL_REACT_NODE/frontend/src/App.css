@@ -41,7 +41,22 @@
 .fa-gratipay {
   color:red;
 }
- 
+
+.fa-image{
+  color: limegreen;
+}
+
+.fa-file-upload{
+ color: coral;
+} 
+
+.fa-poll{
+color: mediumvioletred;
+}
+
+.fa-user-plus{
+  color: dodgerblue;
+}
 
 textarea {
   resize: auto;
@@ -76,10 +91,6 @@ label .form-inline{
 .search{
   width: 50%;
 
-}
-
-.emoji{
-  background-image: url(/rsrc.php/v3/yI/r/1EAUp6uwsqY.png);
 }
 
 .mitextarea{

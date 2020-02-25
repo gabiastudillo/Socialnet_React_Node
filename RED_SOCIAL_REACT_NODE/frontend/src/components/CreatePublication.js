@@ -44,9 +44,9 @@ export default class CreatePublication extends Component {
                         <li className="list-group-item rounded py-1 w-100">
                             <div className="row justify-content-between px-2 ">
                                 <Link  className="btn bg-light rounded-pill m-1"><i className="fas fa-image mr-2"></i>Foto/video</Link>
-                                <button type="button" className="btn bg-light rounded-pill m-1"><i class="fas fa-file-upload mr-2"></i>Archivo</button>
-                                <button type="button" className="btn bg-light rounded-pill m-1"><i class="fas fa-poll mr-2"></i>Encuesta</button>
-                                <button type="button" className="btn bg-light rounded-pill m-1"><i class="fas fa-user-plus mr-2"></i>Etiquetar</button>
+                                <button type="button" className="btn bg-light rounded-pill m-1"><i className="fas fa-file-upload mr-2"></i>Archivo</button>
+                                <button type="button" className="btn bg-light rounded-pill m-1"><i className="fas fa-poll mr-2"></i>Encuesta</button>
+                                <button type="button" className="btn bg-light rounded-pill m-1"><i className="fas fa-user-plus mr-2"></i>Etiquetar</button>
                             </div>
                         </li>
                     </ul>

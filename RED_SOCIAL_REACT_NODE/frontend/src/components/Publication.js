@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import InteraccionPublicacion from './InteraccionPublicacion'
 import SeccionComentarios from './SeccionComentarios'
+import PublicacionGallery from './PublicacionGallery'
 import { Link } from 'react-router-dom'
 
 export default class Publication extends Component {
@@ -16,8 +17,7 @@ export default class Publication extends Component {
                     </div>
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
-                <img src="https://www.veintitantos.com/sites/default/files/styles/v2-img1000x563/public/articulo/2019-01/tips_para_conseguir_viajes_mas_baratos_en_2019.jpg?itok=T3m2ixKL" className="img-fluid" alt="" />
-
+                <PublicacionGallery/>
                 <InteraccionPublicacion />
                 <SeccionComentarios />
             </div>

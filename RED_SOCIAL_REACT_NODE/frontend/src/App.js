@@ -8,6 +8,7 @@ import Inicio from './components/Inicio'
 import Navigation from './components/Navigation';
 import Marketplace from './components/Marketplace';
 import Producto from './components/MarketplaceProducto'
+import Eventos from './components/Eventos';
 function App() {
 
   return (
@@ -17,7 +18,8 @@ function App() {
       <Route path ="/inicio" component={Inicio}/>
       <Route path ="/perfil" component={Perfil}/>      
       <Route path ="/marketplace" component={Marketplace}/>      
-      <Route path ="/producto" component={Producto}/>
+      <Route path ="/producto" component={Producto}/>        
+      <Route path ="/eventos" component={Eventos}/>
     </Router>
   );
 }

@@ -18,14 +18,14 @@ export default class Publication extends Component {
                             </p>
                             <small className="text-muted m-0 p-0 font-weight-normal">1 h</small>
                         </div>
-                        <div class="dropdown dropleft">
-                            <button type="button" class="btn btn-transparent text-muted p-0 mt-2 toggle" id="menuOcultoPublicacion" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,10">
-                                <i class="fas fa-ellipsis-v"></i>
+                        <div className="dropdown dropleft">
+                            <button type="button" className="btn btn-transparent text-muted p-0 mt-2 toggle" id="menuOcultoPublicacion" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,10">
+                                <i className="fas fa-ellipsis-v"></i>
                             </button>
-                            <div class="dropdown-menu" aria-labelledby="menuOcultoPublicacion">
-                                <Link class="btn rounded-0 dropdown-item" to="/">Guardar</Link>
-                                <Link class="btn rounded-0 dropdown-item" to="/">Editar</Link>
-                                <Link class="btn btn-danger rounded-0 dropdown-item" to="/">Eliminar</Link>
+                            <div className="dropdown-menu" aria-labelledby="menuOcultoPublicacion">
+                                <Link className="btn rounded-0 dropdown-item" to="/">Guardar</Link>
+                                <Link className="btn rounded-0 dropdown-item" to="/">Editar</Link>
+                                <Link className="btn btn-danger rounded-0 dropdown-item" to="/">Eliminar</Link>
                             </div>
                         </div>
                     </div>

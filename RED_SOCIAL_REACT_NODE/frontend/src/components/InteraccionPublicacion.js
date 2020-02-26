@@ -15,7 +15,7 @@ export default class InteraccionPublicacion extends Component {
                     </div>
                 </li>
                 <li className="list-group-item px-1 py-1 w-100">
-                <div class="btn-group w-100 m-0" role="group" aria-label="First group">
+                <div className="btn-group w-100 m-0" role="group" aria-label="First group">
                         <button type="button" className="btn bg-transparent m-0 w-100" data-toggle="modal" data-target=".bd-example-modal-sm"><i className="far fa-thumbs-up mr-2"></i>Me gusta</button>
                         <EligeReacion />
                         <button type="button" className="btn bg-transparent m-0 w-100"><i className="far fa-comment-alt mr-2"></i>Comentar</button>

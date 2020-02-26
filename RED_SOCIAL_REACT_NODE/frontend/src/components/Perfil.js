@@ -16,7 +16,7 @@ export default class Perfil extends Component {
 
     render() {
         return (
-            <div className="container col-lg-7 col-md-8 col-sm-12">
+            <div className="container px-2 col-lg-7 col-md-8 col-sm-12">
                 <div className="card text-white">
                     <img src="https://k37.kn3.net/9E0D271BA.jpg" className="card-body-img" alt="..." />
                     <div className="card-img-overlay">

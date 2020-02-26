@@ -84,7 +84,8 @@ label .form-inline{
 
 
 .historia{
-  height: 14rem;
+  max-height: 14rem;
+  max-width: 7rem;
 }
 
 
@@ -97,4 +98,9 @@ label .form-inline{
   display: inline-block;
   position: relative;
    overflow: hidden;
+}
+
+.noticias{
+  max-width: auto;
+  
 }

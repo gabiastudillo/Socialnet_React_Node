@@ -3,7 +3,7 @@ import Historia from './Historia'
 export default class VerHistorias extends Component {
     render() {
         return (
-            <div className="card pt-2 pb-3 m-2 top-content">
+            <div className="card pt-2 pb-3 my-2 top-content">
                 <div className="row p-0 m-2">
                     <h6 className="text-secondary ml-2">Historias</h6>
                     <div className="col text-right">

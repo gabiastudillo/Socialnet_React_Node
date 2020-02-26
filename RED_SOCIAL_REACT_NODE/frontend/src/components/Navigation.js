@@ -1,22 +1,20 @@
 import React, { Component } from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export default class Navigation extends Component {
     render() {
         return (
-
             <nav className="navbar fixed-top navbar-expand-lg navbar-dark superior p-1">
                 <div className="container">
-                    <Link className="navbar-brand mr-5" to="/">Socialnet</Link>
+                    <Link className="navbar-brand mr-2" to="/">Socialnet</Link>
+                    <form className="form my-0 my-lg-0 mx-auto search">
+                        <input className="form-control form-control-sm mr-sm-2" type="text" placeholder="Buscar" />
+                    </form>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
-
-                    <form className="form-inline my-0 my-lg-0 mx-auto search">
-                        <input className="form-control form-control-sm w-100 mr-sm-2" type="text" placeholder="Search" />
-                    </form>
-
                     <div className="collapse navbar-collapse" id="navbarColor02">
+
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item active">
                                 <Link className="nav-link mr-2" to="/Perfil">

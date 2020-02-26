@@ -13,7 +13,7 @@ export default class Marketplace extends Component {
                         </section>
                     </div>
                     <div className="col-lg-9 col-md-10 col-sm-12 col-xs-12">
-                        <div className="row">
+                        <section className="row" style={{ position: "relative" }}>
 
                             <div className="col-4" >
                                 <MarketplaceItem/>
@@ -44,7 +44,7 @@ export default class Marketplace extends Component {
                             </div>
 
 
-                        </div>
+                        </section>
                     </div>
                 </main>
             </div>

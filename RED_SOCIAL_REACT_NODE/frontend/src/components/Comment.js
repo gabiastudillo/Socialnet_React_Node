@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Respuesta from './Respuesta'
+import EligeReacion from './EligeReacion'
 import CreateRespuesta from './CreateRespuesta'
-
 import { Link } from 'react-router-dom'
 
 export default class Comment extends Component {
@@ -26,7 +26,8 @@ export default class Comment extends Component {
                             </p>
                             <p className="text-justify m-0 pt-1 pb-2">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
                             <div className="row m-0 p-0">
-                                <a href="className=#v-pills-home" className="mr-3">Me gusta</a>
+                                <a href="className=#v-pills-home" className="mr-3" data-toggle="modal" data-target=".bd-example-modal-sm">Me gusta</a>
+                                <EligeReacion />
                                 <a href="className=#v-pills-home" className="mr-3">Responder</a>
                                 <a href="className=#v-pills-home" className="text-muted">5 min</a>
                             </div>

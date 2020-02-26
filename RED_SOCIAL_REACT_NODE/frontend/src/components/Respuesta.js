@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import EligeReacion from './EligeReacion'
 import { Link } from 'react-router-dom'
 
 export default class Respuesta extends Component {
@@ -22,7 +23,8 @@ export default class Respuesta extends Component {
                         </p>
                         <p className="pt-1 pb-2 m-0"> Nulla vel metus scelerisque ante sollicitudin.s</p>
                         <div className="row m-0 p-0">
-                            <a href="className=#v-pills-home" className="mr-3">Me gusta</a>
+                            <a href="className=#v-pills-home" className="mr-3" data-toggle="modal" data-target=".bd-example-modal-sm">Me gusta</a>
+                            <EligeReacion />
                             <a href="className=#v-pills-home" className="mr-3">Responder</a>
                             <a href="className=#v-pills-home" className="text-muted">5 min</a>
                         </div>

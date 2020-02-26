@@ -15,20 +15,20 @@ export default class Navigation extends Component {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarColor02">
 
-                        <ul className="navbar-nav ml-auto">
+                        <ul className="navbar-nav flex-row flex justify-content-around mx-auto">
                             <li className="nav-item active">
-                                <Link className="nav-link mr-2" to="/Perfil">
+                                <Link className="nav-link px-sm-5 px-lg-1" to="/Perfil">
                                     <img src={'https://laboratoriosniam.com/wp-content/uploads/2018/07/michael-dam-258165-unsplash_WEB2.jpg'} width="26" height="26" className="rounded-circle float-left border-0 mr-2" alt="" />
-                                    <small><strong>Gabriela</strong></small><span className="sr-only">(current)</span></Link>
+                                    <small><strong></strong></small><span className="sr-only">(current)</span></Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="google.com"><i className="fas fa-user-friends fa-lg mr-2"></i></Link>
+                                <Link className="nav-link px-sm-5 px-lg-1" to="google.com"><i className="fas fa-user-friends fa-lg px-2"></i></Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="google.com"><i className="fas fa-envelope fa-lg mr-2"></i></Link>
+                                <Link className="nav-link px-sm-5 px-lg-1" to="google.com"><i className="fas fa-envelope fa-lg px-2"></i></Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link mr-5 pr-5" to="google.com"><i className="fas fa-bell fa-lg mr-2"></i></Link>
+                                <Link className="nav-link px-sm-5 px-lg-1" to="google.com"><i className="fas fa-bell fa-lg px-2"></i></Link>
                             </li>
                         </ul>
 

@@ -7,7 +7,7 @@ export default class EventosSidePanel extends Component {
         return (
             <nav className="nav col nav-pills flex-column ">
                 <Link className="nav-link btn-lg text-lg-left my-2" to="/eventos"><span><i className="fas fa-calendar-alt fa-lg mr-3"></i>Eventos</span></Link>
-                <Link className="btn btn-primary mt-3 ml-3" to="/producto" role="button" 
+                <Link className="btn btn-primary mt-3 ml-3" role="button" 
                data-toggle="modal" data-target="#exampleModalCenter">+ Crear evento</Link>
                 <ModalCrearEvento/>
                 <h6 className="m-3 mt-4">Categorías</h6>

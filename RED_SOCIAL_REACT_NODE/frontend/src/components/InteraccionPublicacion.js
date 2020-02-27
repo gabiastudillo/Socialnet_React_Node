@@ -7,10 +7,10 @@ export default class InteraccionPublicacion extends Component {
             <ul className="list-group list-group-flush m-0 p-0">
                 <li className="list-group-item">
                     <div className="row">
-                        <a href="className=#v-pills-home" className="text-muted mr-5"><i className="fab fa-gratipay fa-lg mr-2 ml-2"></i>25</a>
+                        <a href="className=#v-pills-home" className="text-muted mr-5"><i className="fab fa-gratipay fa-lg mr-2 ml-2"></i>{this.props.sumaReacciones}</a>
                         <div className="col text-right">
-                            <a href="className=#v-pills-home" className="text-muted mr-3">5 comentarios</a>
-                            <a href="className=#v-pills-home" className="text-muted text-right">1 vez compartido</a>
+                            <a href="className=#v-pills-home" className="text-muted mr-3">{this.props.comentarios}</a>
+                            <a href="className=#v-pills-home" className="text-muted text-right">{this.props.compartidos}</a>
                         </div>
                     </div>
                 </li>

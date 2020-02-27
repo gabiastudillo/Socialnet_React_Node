@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default class SidePanel extends Component {
     render() {
         return (
-            <nav className="nav flex-column nav-pills  pl-1 mt-5">
+            <nav className="nav flex-column nav-pills px-1 mt-5">
                 <Link className="nav-link mt-0 mb-2 border" to="/Perfil">
                     <img src={'https://laboratoriosniam.com/wp-content/uploads/2018/07/michael-dam-258165-unsplash_WEB2.jpg'} width="25" height="25" className="rounded-circle border-0 mr-2" alt=""/>Gabriela Astudillo
                 </Link>

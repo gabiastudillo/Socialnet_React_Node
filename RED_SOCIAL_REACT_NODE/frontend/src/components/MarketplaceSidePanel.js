@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom'
 export default class MarketplaceSidePanel extends Component {
     render() {
         return (
-            <nav className="nav col flex-column">
+            <nav className="nav col flex-column nav-pills px-1 pr-3">
                 <Link className="nav-link btn-lg text-lg-left my-2" to="/marketplace"><span><i className="fas fa-store fa-lg mr-3"></i>Marketplace</span></Link>
                 <Link className="btn btn-primary mt-3 ml-3" to="/producto" role="button">+ Vender algo</Link>
-                <h6 className="ml-3 mt-3">Ubicación</h6>
+                <h6 className="ml-3 mt-4">Ubicación</h6>
                 <div className="form-group ml-3">
                     <input type="text" className="form-control" placeholder="Ubicación" />
                 </div>

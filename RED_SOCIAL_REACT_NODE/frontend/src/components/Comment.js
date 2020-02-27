@@ -24,7 +24,8 @@ export default class Comment extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <p className="text-justify m-0 pt-1 pb-2">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                            <p className="text-justify m-0 pt-1 pb-2">{this.props.texto}</p>
+                            <img className="align-self-start mr-2" src={this.props.imagen}  alt="" />
                             <div className="row m-0 p-0">
                                 <a href="className=#v-pills-home" className="mr-3" data-toggle="modal" data-target=".bd-example-modal-sm">Me gusta</a>
                                 <EligeReacion />

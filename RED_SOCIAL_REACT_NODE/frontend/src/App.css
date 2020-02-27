@@ -91,7 +91,6 @@ label .form-inline{
 
 .search{
   width: 45%;
-  
 
 }
 
@@ -102,6 +101,11 @@ label .form-inline{
 }
 
 .noticias{
-  max-width: auto;
-  
+  max-width: auto;  
+}
+
+.modal-body-evento{
+  height: 35rem;
+  width: 100%;
+  overflow-y: auto;
 }

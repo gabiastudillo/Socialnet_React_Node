@@ -10,13 +10,13 @@ export default class Publication extends Component {
             <div className="card my-3">
                 <div className="card-body py-2 px-3">
                     <div className="media m-0">
-                        <img className="align-self-start mr-2 my-2 rounded-circle border" src={'https://laboratoriosniam.com/wp-content/uploads/2018/07/michael-dam-258165-unsplash_WEB2.jpg'} width="45" height="45" alt="" />
+                        <img className="align-self-start mr-2 my-2 rounded-circle border" src={this.props.userImage} width="45" height="45" alt="" />
                         <div className="media-body px-0 py-2">
                             <p className="p-0 m-0">
-                                <Link to="/perfil" className="card-title mr-2"><strong>Gabriela Astudillo</strong></Link>
-                                está con <Link to="/perfil" className="card-title">Darwin Pilaloa</Link> y <Link to="/perfil" className="card-title">Silvia Cabrera</Link>
+                                <Link to="/perfil" className="card-title mr-2"><strong>{this.props.user}</strong></Link>
+                                está con <Link to="/perfil" className="card-title">{this.props.etiqueta1}</Link> y <Link to="/perfil" className="card-title">{this.props.etiqueta2}</Link>
                             </p>
-                            <small className="text-muted m-0 p-0 font-weight-normal">1 h</small>
+                            <small className="text-muted m-0 p-0 font-weight-normal">{this.props.fechaPublicacion}</small>
                         </div>
                         <div className="dropdown dropleft">
                             <button type="button" className="btn btn-transparent text-muted p-0 mt-2 toggle" id="menuOcultoPublicacion" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,10">
@@ -29,12 +29,20 @@ export default class Publication extends Component {
                             </div>
                         </div>
                     </div>
-                    <p className="card-text text-justify">Some quick example text to build on the card. Some quick example text to build on the card. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p className="card-text text-justify">{this.props.textPublicacion}</p>
                 </div>
                 <img data-toggle="modal" data-target="#ModalPublicationGallery"
-                src="https://4ca2a52t2g0244kzir3456v7-wpengine.netdna-ssl.com/charlotte/wp-content/uploads/sites/3/2014/05/puppy-preschool.jpg" className="img-fluid" alt="" />
-                <PublicacionGallery />
-                <InteraccionPublicacion />
+                src={this.props.imagenPublicacion} className="img-fluid" alt="" />
+                <PublicacionGallery 
+                foto1="https://4ca2a52t2g0244kzir3456v7-wpengine.netdna-ssl.com/charlotte/wp-content/uploads/sites/3/2014/05/puppy-preschool.jpg"
+                foto2="https://cdn.wallpapersafari.com/45/4/auQo0L.jpg"
+                foto3="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQQhPaaMwkio7X4xxYH6w4XFjUnienhqDs2KvsUHIKcJqvwl4MP"/>
+              
+
+                <InteraccionPublicacion 
+                comentarios="5 comentarios"
+                compartidos="1 vez compartido"
+                sumaReacciones="25"/>
                 <SeccionComentarios />
             </div>
         )

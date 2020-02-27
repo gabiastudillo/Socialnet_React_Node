@@ -12,13 +12,13 @@ export default class PublicacionGallery extends Component {
                             <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
                                 <div className="carousel-inner">
                                     <div className="carousel-item active">
-                                        <img className="d-block w-100" src="https://4ca2a52t2g0244kzir3456v7-wpengine.netdna-ssl.com/charlotte/wp-content/uploads/sites/3/2014/05/puppy-preschool.jpg" alt="First slide" />
+                                        <img className="d-block w-100" src={this.props.foto1} alt="First slide" />
                                     </div>
                                     <div className="carousel-item">
-                                        <img className="d-block w-100" src="https://cdn.wallpapersafari.com/45/4/auQo0L.jpg" alt="Second slide" />
+                                        <img className="d-block w-100" src={this.props.foto2} alt="Second slide" />
                                     </div>
                                     <div className="carousel-item">
-                                        <img className="d-block w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQQhPaaMwkio7X4xxYH6w4XFjUnienhqDs2KvsUHIKcJqvwl4MP" alt="Third slide" />
+                                        <img className="d-block w-100" src={this.props.foto3} alt="Third slide" />
                                     </div>
                                 </div>
                                 <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

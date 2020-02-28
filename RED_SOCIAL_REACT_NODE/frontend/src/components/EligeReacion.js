@@ -4,8 +4,8 @@ export default class EligeReacion extends Component {
     render() {
         return (
             <div className="modal fade bd-example-modal-sm" tabIndex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                <div className="modal-dialog modal-dialog-centered modal-sm rounded-pill">
-                    <div className="modal-content rounded-pill">
+                <div className="modal-dialog modal-dialog-centered modal-sm">
+                    <div className="modal-content rounded-pill modal-reacciones">
                         <div className="btn-group rounded-pill" role="group" aria-label="Basic example">
                             <span>
                                 <img src='https://clubtipo.es/uploads/reactions/1370907915_1(3).gif' width="40" height="40" className="rounded-circle ml-2 m-1 float-left" alt="" />

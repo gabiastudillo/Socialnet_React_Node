@@ -7,8 +7,8 @@ export default class MarketplaceSidePanel extends Component {
         return (
             <nav className="nav col flex-column nav-pills px-1 pr-3">
                 <Link className="nav-link btn-lg text-lg-left my-2" to="/marketplace"><span><i className="fas fa-store fa-lg mr-3"></i>Marketplace</span></Link>
-                <Link className="btn btn-primary mt-3 ml-3" role="button"
-                 data-toggle="modal" data-target="#modalVenderAlgo">+ Vender algo</Link>
+                <button className="btn btn-primary mt-3 ml-3" 
+                 data-toggle="modal" data-target="#modalVenderAlgo">+ Vender algo</button>
                  <MarketplaceProducto/>
                 <h6 className="ml-3 mt-4">Ubicación</h6>
                 <div className="form-group ml-3">

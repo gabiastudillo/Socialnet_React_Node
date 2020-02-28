@@ -5,6 +5,7 @@ import SidePanel from './SidePanel'
 import Conectados from './Conectados'
 import CreatePublication from './CreatePublication'
 import VerHistorias from './VerHistorias'
+import PublicationVideo from './PublicationVideo'
 
 export default class Principal extends Component {
     state = {
@@ -45,6 +46,15 @@ export default class Principal extends Component {
                                 fechaPublicacion="1 h"
                                 textPublicacion="Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final."
                                 imagenPublicacion="https://4ca2a52t2g0244kzir3456v7-wpengine.netdna-ssl.com/charlotte/wp-content/uploads/sites/3/2014/05/puppy-preschool.jpg"
+                                />
+                                <PublicationVideo 
+                                userImage="https://laboratoriosniam.com/wp-content/uploads/2018/07/michael-dam-258165-unsplash_WEB2.jpg"
+                                user="Silvia Cabrera"
+                                etiqueta1=""
+                                etiqueta2=""
+                                fechaPublicacion="16 min"
+                                textPublicacion=""
+                                videoPublicacion="`https://youtu.be/kgkc8V7s-EI`"
                                 />
 
                         </section>

@@ -21,19 +21,18 @@ export default class CreatePublication extends Component {
         return (
             <div className="card my-3">
                 <h6 className="card-header">Crear publicación</h6>
-                <div className="form-inline pb-0">
-                    <div className="card-body p-1 m-0 w-100 d-flex">
-                        <img src={'https://laboratoriosniam.com/wp-content/uploads/2018/07/michael-dam-258165-unsplash_WEB2.jpg'} width="45" height="45" className="rounded-circle m-2 float-left border" alt="" />
-                        <div className="m-0 p-0 w-100">
-                            <div className="form-group m-0 p-0 w-100">
-                                <textarea className="form-control w-100 font-weight-normal m-0 pt-3 pb-0 border-0 mitextarea"
-                                    data-toggle="modal" data-target="#ModalSubirFotoVideo" rows="2" placeholder="¿Qué estás pensando, Gabriela?"></textarea>
+                <div className="card-body p-0 m-0">
+                    <div className="form-inline pb-0">
+                        <div className="card-body p-1 m-0 w-100 d-flex">
+                            <img src={'https://laboratoriosniam.com/wp-content/uploads/2018/07/michael-dam-258165-unsplash_WEB2.jpg'} width="45" height="45" className="rounded-circle m-2 float-left border" alt="" />
+                            <div className="m-0 p-0 w-100">
+                                <div className="form-group m-0 p-0 w-100">
+                                    <textarea className="form-control w-100 font-weight-normal m-0 pt-3 pb-0 border-0 mitextarea"
+                                        data-toggle="modal" data-target="#ModalSubirFotoVideo" rows="2" placeholder="¿Qué estás pensando, Gabriela?"></textarea>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div className="card-body p-0 m-0">
                     <ul className="list-group list-group-flush m-0">
                         <li className="list-group-item px-2 py-1 w-100">
 

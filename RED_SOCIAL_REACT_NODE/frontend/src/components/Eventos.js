@@ -5,7 +5,7 @@ import EventoItem from './EventoItem'
 export default class Eventos extends Component {
     render() {
         return (
-            <div className="container pt-3 mt-5 mb-2">
+            <div className="container pt-lg-3 pt-md-3 pt-5 mt-5 mb-2">
                 <main className="row m-0 p-0 w-100">
                     <div className="col-md-2 col-lg-3 col-sm-12 col-xs-12 " >
                         <section style={{ position: "relative" }}>

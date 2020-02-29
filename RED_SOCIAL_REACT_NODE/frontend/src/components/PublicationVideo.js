@@ -29,11 +29,10 @@ export default class PublicationVideo extends Component {
                     </div>
                     <p className="card-text text-justify">{this.props.textPublicacion}</p>
                 </div>
-                
                 <ReactPlayer
                     playsInline
                     width="100%"
-                    url='https://www.youtube.com/watch?v=kGIFZlx1iYU'playing/>
+                    url='https://www.youtube.com/watch?v=kGIFZlx1iYU' playing/>
 
                 <InteraccionPublicacion
                     comentarios=""

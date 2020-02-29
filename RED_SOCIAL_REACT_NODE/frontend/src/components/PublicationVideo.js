@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
-/*import ReactPlayer from 'react-player'*/
+import ReactPlayer from 'react-player'
 import InteraccionPublicacion from './InteraccionPublicacion'
 import { Link } from 'react-router-dom'
-import { Player } from 'video-react';
 
 export default class PublicationVideo extends Component {
     render() {
@@ -31,15 +30,10 @@ export default class PublicationVideo extends Component {
                     <p className="card-text text-justify">{this.props.textPublicacion}</p>
                 </div>
                 
-                <Player
-                    playsInline
-                    poster="/assets/poster.png"
-                src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4" />
-
-                {/*<ReactPlayer
+                <ReactPlayer
                     playsInline
                     width="100%"
-                url='https://www.youtube.com/watch?v=lxYB79ANJM8'playing/>*/}
+                    url='https://www.youtube.com/watch?v=kGIFZlx1iYU'playing/>
 
                 <InteraccionPublicacion
                     comentarios=""

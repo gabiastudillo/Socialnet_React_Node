@@ -14,8 +14,8 @@ export default class CreateArchivo extends Component {
 
         return (
             <div className="image-upload text-center" >
-                <label htmlFor="file-input2" style={{ cursor: "pointer", marginTop: "10px" }} title="Clic para subir foto de portada">
-                    <img src="https://www.blugarden.eu/images/placeholders/placeholder.png" alt="" id="output2" width="100%" height="250" className="picturstyle" style={picturstyle} />
+                <label htmlFor="file-input2" style={{ cursor: "pointer", marginTop: "5px" }} title="Clic para subir foto de portada">
+                    <img src="https://www.blugarden.eu/images/placeholders/placeholder.png" alt="" id="output2" width="20%" className="picturstyle" style={picturstyle} />
                 </label>
                 <input id="file-input2" type="file" style={{ display: 'none' }} onChange={this.loadimageportada.bind(this.event)}
                     accept="video/*,  video/x-m4v, video/webm, video/x-ms-wmv, video/x-msvideo, video/3gpp, video/flv, video/x-flv, video/mp4, video/quicktime, video/mpeg, video/ogv, .ts, .mkv, image/*, image/heic, image/heif" />

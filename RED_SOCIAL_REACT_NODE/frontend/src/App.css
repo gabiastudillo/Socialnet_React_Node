@@ -133,3 +133,7 @@ a[data-toggle="collapse"] {
 .navbar-nav{
   float: right;
 }
+
+.btns{
+  max-width: auto;
+}

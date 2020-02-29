@@ -45,7 +45,7 @@ export default class ModalCrearEvento extends Component {
                                     <label htmlFor="formGroupExampleInput">Portada del evento</label>
                                     <div className="image-upload text-center" >
                                         <label htmlFor="file-input2" style={{ cursor: "pointer", marginTop: "10px" }} title="Clic para subir foto de portada">
-                                            <img src="https://www.blugarden.eu/images/placeholders/placeholder.png" alt="" id="output2" width="100%" height="250" style={picturstyle} />
+                                            <img src="https://www.blugarden.eu/images/placeholders/placeholder.png" alt="" id="output2" width="100%" height="250" style={picturstyle}/>
                                         </label>
                                         <input id="file-input2" type="file" style={{ display: 'none' }} onChange={this.loadimageportada.bind(this.event)} />
                                     </div>

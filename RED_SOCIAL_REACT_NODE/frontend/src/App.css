@@ -88,10 +88,8 @@ label .form-inline{
   max-width: 7rem;
 }
 
-
 .search{
-  width: 55%;
-  padding-right: 10px;
+  width: 70%;
 
 }
 
@@ -114,4 +112,24 @@ label .form-inline{
 .modal-reacciones{
   min-width: auto;
   max-width: 300px;  
+}
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
+a[data-toggle="collapse"] {
+  position: relative;
+}
+
+.dropdown-toggle::after {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+.navbar-nav{
+  float: right;
 }

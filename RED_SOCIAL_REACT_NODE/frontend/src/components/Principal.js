@@ -9,7 +9,6 @@ import PublicationVideo from './PublicationVideo'
 
 export default class Principal extends Component {
     state = {
-
         dias: ["Día", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31"],
         meses: ["Mes", "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"],
         años: ['Año', "2001", "2000", "1999", "1998", "1997", "1996", "1995", "1994", "1993", "1992", "1991", "1990", "1989", "1988", "1987", "1986", "1985", "1984", "1983", "1982", "1981", "1980", "1979", "1978", "1977", "1976", "1975", "1974", "1973", "1972", "1971", "1970"],
@@ -27,17 +26,17 @@ export default class Principal extends Component {
     
     render() {
         return (
-            <div className="container px-0 pt-3 mt-lg-0 mt-4">               
-                <main className="row m-0 p-0">
-                    <div className="col-md-2 col-lg-3 col-sm-12">
+            <div className="container px-lg-3 px-md-2 px-1">               
+                <main className="row m-0 p-0 pt-lg-0 pt-md-0  mt-lg-0 mt-md-0 pt-5 mt-5">
+                    <div className="col-md-2 col-lg-3 col-sm-12 mt-md-5 pt-md-3 mt-1">
                         <section className="px-3" style={{ position: "relative" }}>
                             <SidePanel />
                         </section>
                     </div>
-                    <div className="col-lg-6 col-sm-12 col-md-7 pt-lg-4 mt-2 noticias px-lg-4 mx-lg-0">
-                        <section style={{ position: "relative" }}>
+                    <div className="col-lg-6 col-sm-12 col-md-7 pt-lg-4 pt-md-4 mt-lg-4 mt-md-4 px-0 mx-0 noticias px-lg-4 mx-lg-0">
+                        <section style={{ position: "relative" }}> 
                             <CreatePublication />
-                            <VerHistorias />                     
+                            <VerHistorias/>                     
                             <Publication 
                                 userImage="https://laboratoriosniam.com/wp-content/uploads/2018/07/michael-dam-258165-unsplash_WEB2.jpg"
                                 user="Gabriela Astudillo"
@@ -59,7 +58,7 @@ export default class Principal extends Component {
 
                         </section>
                     </div>
-                    <div className="col offset-md-1 offset-lg-2 mt-4 pt-2 pl-lg-5" >
+                    <div className="col offset-md-1 offset-lg-2 mt-4 pt-4 pl-lg-5" >
                         <section style={{ position: "fixed" }}>
                             <Conectados/>
                         </section>

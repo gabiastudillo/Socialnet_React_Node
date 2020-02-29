@@ -19,7 +19,7 @@ export default class CreatePublication extends Component {
 
     render() {
         return (
-            <div className="card my-3">
+            <div className="card my-lg-3 my-md-3 mt-0 mb-3">
                 <h6 className="card-header">Crear publicación</h6>
                 <div className="card-body p-0 m-0">
                     <div className="form-inline pb-0">

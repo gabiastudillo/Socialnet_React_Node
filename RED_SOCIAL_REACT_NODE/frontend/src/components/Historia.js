@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Historia extends Component {
     render() {
         return (
-            <div className="col-3 m-0 p-1">
+            <div className="col-3 m-0 p-0">
                 <div className="card bg-dark text-white border-0 historia text-white">
                     <img className="card-img img-fluid center-block h-100" src="https://i.pinimg.com/originals/56/1d/e9/561de92b7dafa0b258653080c2a5d971.jpg" alt="" />
                     <div className="card-img-overlay p-2">

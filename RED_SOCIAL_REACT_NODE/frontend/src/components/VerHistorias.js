@@ -12,9 +12,9 @@ export default class VerHistorias extends Component {
                 </div>
 
                 <div className="container-fluid">
-                    <div id="carouselHistorias" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
+                    <div id="carouselHistorias" className="carousel slide" data-ride="carousel">
+                        <div className="carousel-inner">
+                            <div className="carousel-item active">
                                 <div className="row m-0 p-0">
                                     <Historia />
                                     <Historia />
@@ -22,7 +22,7 @@ export default class VerHistorias extends Component {
                                     <Historia />
                                 </div>
                             </div>
-                            <div class="carousel-item">
+                            <div className="carousel-item">
                                 <div className="row m-0 p-0">
                                     <Historia />
                                     <Historia />
@@ -30,7 +30,7 @@ export default class VerHistorias extends Component {
                                     <Historia />
                                 </div>
                             </div>
-                            <div class="carousel-item">
+                            <div className="carousel-item">
                                 <div className="row m-0 p-0">
                                     <Historia />
                                     <Historia />
